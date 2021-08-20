@@ -18,10 +18,16 @@
     </style>
 
     <!-- 2nd method -->
-        <!-- deprecated -->
-    <style name="NoActionBar">
-    <!-- <style name="Theme.AppCompat.DayNight.NoActionBar"> -->
+    <!-- REMEMBER to add parent att, OR ELSE -> Error inflating class com.google.android.material.appbar.AppBarLayout -->
+    <!-- 2.1 -->
+    <!-- <style name="NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+    <!-- 2.2 -->
+    <style name="Theme.NaviagtionDrawerExample.NoActionBar">
+    <!-- ???<style name="Theme.AppCompat.DayNight.NoActionBar">??? --> <!-- *** -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+
+        <!-- available for 21 api lvl or higher, SO create a new file to override it -->
+        <!-- <item name="android:statusBarColor">@android:color/transparent</item> -->
     </style>
 </resources>

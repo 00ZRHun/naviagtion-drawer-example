@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NaviagtionDrawerExample">
         <activity android:name=".MainActivity"
-            android:theme="@style/NoActionBar">
+            android:theme="@style/Theme.NaviagtionDrawerExample.NoActionBar" >
+            <!-- OR android:theme="@style/NoActionBar"> -->
             <!-- ONLY this will override those 2 att (windowActionBar, windowNoTitle), remain won't be effected -->
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
