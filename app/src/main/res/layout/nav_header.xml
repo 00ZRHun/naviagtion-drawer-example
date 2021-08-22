@@ -29,5 +29,4 @@
         android:layout_height="wrap_content"
         android:text="info@codminginflow.com" />
 
-
 </LinearLayout>

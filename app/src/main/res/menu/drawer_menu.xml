@@ -5,7 +5,7 @@
     <!-- change to the view in navigation drawer  -->
     <!-- not necessary, just for preview window  -->
 
-    <!-- remain select the option -->
+    <!-- remain selecting the option -->
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_message"
@@ -21,7 +21,7 @@
             android:title="Profile" />
     </group>
 
-    <!-- Create a new section to trigger action only without remain select the option -->
+    <!-- Create a new section to trigger action only without remain selecting the option -->
     <item android:title="Communicate">
         <menu>
             <item
